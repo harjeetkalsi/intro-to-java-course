@@ -1,6 +1,6 @@
 package com.cbfacademy;
 
-public class Pet {
+public abstract class Pet {
 
     String name;
     int age;
@@ -10,8 +10,6 @@ public class Pet {
         this.age = age;
     }
 
-    public String noise(){
-        return "Making noise";
-     }
+    public abstract String noise();
     
 }
